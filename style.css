@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  @font-face {
+    font-family: Poppins;
+    src: url('./assets/Poppins-Regular.ttf')
+    }
+  
+  .page-1 {
+    width: 100vw;
+    height: 500vh;
+    background-color: rgba(228,236,255,1);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.nav-1,.nav-2,
+.nav-3,.nav-4 {
+  margin: 10px;
+  padding: 10px;
+
+}
+
+.nav-5 {
+  margin: 5px;
+}
+
+.own-logo {
+  margin: 20px;
+}
+
+.button-page-1 {
+    background-color:  #293FCC;
+    padding: 15px;
+    width: 165px;
+    height: 52px;
+    border-radius: 6px;
+    color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+
+.content-left {
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 450px;
+  height: 377px;  
+}
+
+.satisfied-customer {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 10px;
+
+}
+
+.backend-experience {
+  position: absolute;
+  margin-top: 230px;
+  margin-left: 10px;
+}
+
+.group-5742 {
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 10px;
+}
+
+.group-111 {
+  position: absolute;
+  margin-top: 350px;
+  padding-top: 15px;
+  margin-left: 250px;
+}
+
+.button-content-left {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 5px;
+}
+
+
+.content-right {
+  margin-top: 100px;
+  margin-right: 150px;
+  width: 420px;
+  height: 377px;
+  border-radius: 30px 30px 30px 30px;
+  background-color: #B9CCFE;
+}
+
+.img-3D {
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 40px;
+}
+
+.notification {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: -130px;
+}
+
+.group-109 {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 270px;
+}
+
+.designer-card {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.group-5675 {
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 20px;
+}
+
+.great-designer {
+  position: absolute;
+  margin-top: -110px;
+  margin-left: 60px;
+}
+
+.group-5674 {
+  position: absolute;
+  margin-top: -90px;
+  margin-left: 70px;
+}
+
+.footer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+
+
+ 
