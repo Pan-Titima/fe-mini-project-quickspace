@@ -215,8 +215,9 @@ p span {
 .solution-content {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 50px;
 }
 
 .grow-your-business-card-group-901 {
