@@ -16,9 +16,9 @@ p span {
 
 .page-1 {
   width: 100vw;
-  padding-left: 20px;
+  padding-left: 30px;
   background-color: rgba(228, 236, 255, 1);
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
@@ -35,6 +35,19 @@ p span {
 .nav {
   display: none;
 }
+
+.own-logo {
+  margin-top: 20px;
+}
+
+.line-1 {
+  border-top: 1px solid gray;
+}
+
+.mobile-nav-1 {
+  margin-top: 20px;
+}
+
 
 @media only screen and (min-width: 992px) {
   .nav {
@@ -53,14 +66,16 @@ p span {
     padding: 10px;
   }
 
-  .nav-5 {
-    margin: 5px;
+  .line-1 {
+    display: none;
   }
+
+    .mobile-nav-1 {
+      display: none;
+    }
 }
 
-.own-logo {
-  margin-top: 20px;
-}
+
 
 .button-page-1 {
   background-color: #293fcc;
@@ -73,25 +88,29 @@ p span {
 
 .content {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap-reverse;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+@media only screen and (min-width: 992px) {
+  .content {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-bottom: 100px;
+  }
 }
 
+
 .content-left {
-  top: 600px;
-  left: 50px;
-  width: 450px;
-  height: 600px;
+  padding-left: 20px;
 }
 
 .group-5742 {
-  position: relative;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .satisfied-customer {
-  position: relative;
   margin-top: 50px;
   font-size: 44px;
   font-weight: 600;
@@ -101,7 +120,6 @@ p span {
 }
 
 .backend-experience {
-  position: relative;
   margin-top: 50px;
   font-size: 16px;
   font-weight: 400;
@@ -110,7 +128,6 @@ p span {
 }
 
 .present {
-  position: absolute;
   margin-top: 50px;
 }
 
@@ -132,16 +149,8 @@ p span {
   }
 }
 
-.content-right {
-  top: 600px;
-  margin-left: 80px;
-  margin-right: 20px;
-  width: 650px;
-  height: 600px;
-}
 
-.back {
-  position: absolute;
+.content-right {
   width: 377px;
   height: 377px;
   margin-top: 120px;
@@ -194,7 +203,6 @@ p span {
 }
 
 .footer {
-  margin-top: 50px;
   height: 100px;
   display: flex;
   flex-direction: row;
@@ -524,9 +532,6 @@ p span {
     flex-direction: row;
     gap: 30px;
   }
-  .content-4-card {
-    width: 1000px;
-  }
 
   .card-4 {
     width: 1000px;
@@ -597,7 +602,6 @@ p span {
   padding-bottom: 100px;
   width: 100vw;
   background-color: rgba(240, 244, 255, 0.46);
-
 }
 
 .header-5-1 {
@@ -605,7 +609,7 @@ p span {
   font-weight: 600;
   line-height: 73px;
   text-align: center;
-  color: #090F4E;
+  color: #090f4e;
 }
 
 .header-5-2 {
@@ -614,7 +618,7 @@ p span {
   font-weight: 400;
   line-height: 36px;
   text-align: center;
-  color: #63657E;
+  color: #63657e;
 }
 
 .header-5-3 {
@@ -627,7 +631,7 @@ p span {
   font-weight: 500;
   line-height: 24px;
   text-align: center;
-  color: #63657E;
+  color: #63657e;
 }
 
 .content-5 {
@@ -639,42 +643,41 @@ p span {
   gap: 20px;
 }
 
-.content-5-1{
+.content-5-1 {
   margin-top: 60px;
   margin-bottom: 80px;
 }
 
-.content-5-2{
+.content-5-2 {
   margin-top: 35px;
   margin-bottom: 80px;
 }
 
-.content-5-3{
+.content-5-3 {
   margin-top: 60px;
   margin-bottom: 80px;
 }
 
-.button-5-1-bg{
+.button-5-1-bg {
   position: absolute;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 350px;
   height: 100px;
   border-radius: 0px 0px 15px 15px;
-  
 }
 
-.button-5-2-bg{
+.button-5-2-bg {
   position: absolute;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 350px;
   height: 100px;
   margin-left: 47px;
   border-radius: 0px 0px 15px 15px;
 }
 
-.button-5-3-bg{
+.button-5-3-bg {
   position: absolute;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 350px;
   height: 100px;
   border-radius: 0px 0px 15px 15px;
@@ -697,8 +700,7 @@ p span {
   background-color: rgb(0, 47, 255);
   padding: 20px 20px 20px 20px;
   margin-left: 70px;
-  color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .button-5-3 {
@@ -717,7 +719,6 @@ p span {
   width: 100vw;
 }
 
-
 .bg-6 {
   display: flex;
   flex-wrap: wrap;
@@ -728,8 +729,7 @@ p span {
   width: 500px;
   height: 360px;
   border-radius: 30px 30px 30px 30px;
-  background-color: #E7F5FF;
-
+  background-color: #e7f5ff;
 }
 
 .text-6 {
@@ -753,8 +753,7 @@ p span {
     width: 1117px;
     height: 360px;
     border-radius: 30px 30px 30px 30px;
-    background-color: #E7F5FF;
-  
+    background-color: #e7f5ff;
   }
 
   .text-6 {
@@ -766,25 +765,20 @@ p span {
     left: 480px;
     border-radius: 50px 50px 50px 50px;
   }
-  
-  
+
   .enter-6 {
     position: absolute;
     margin-left: -60px;
     margin-top: 35px;
   }
-
 }
 
-
 .header-6-1 {
-
   padding-top: 50px;
   font-size: 36px;
   font-weight: 600;
   line-height: 54px;
-  color: #090F4E;
-
+  color: #090f4e;
 }
 
 .header-6-2 {
@@ -794,14 +788,11 @@ p span {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  color: #63657E;
+  color: #63657e;
 }
-
-
 
 .enter-6 {
   position: absolute;
   margin-left: -60px;
   margin-top: 35px;
 }
-
