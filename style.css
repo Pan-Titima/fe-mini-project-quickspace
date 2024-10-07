@@ -452,7 +452,7 @@ p span {
 }
 
 .card-4 {
-  width: 500px;
+  width: 600px;
   height: 150px;
   margin-top: 65px;
   margin-left: 100px;
@@ -461,6 +461,7 @@ p span {
 }
 
 .header-4 {
+  display: flex;
   flex-wrap: wrap;
 }
 
@@ -487,7 +488,7 @@ p span {
 }
 
 .content-4-card {
-  width: 500px;
+  width: 600px;
   height: auto;
   background-color: #ebf0f4;
   padding-top: 30px;
