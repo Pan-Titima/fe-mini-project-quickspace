@@ -130,6 +130,10 @@ p span {
 }
 
 .present {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   margin-top: 50px;
 }
 
@@ -146,7 +150,7 @@ p span {
   }
 
   .group-111 {
-    margin-top: 10px;
+    margin-top: 50px;
     margin-left: 20px;
   }
 }
@@ -412,35 +416,27 @@ p span {
 }
 
 .content-3 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  height: 600px;
-  padding-right: 50px;
+  display: none;
 }
 
-.content-3-1 {
-  position: absolute;
-  padding-left: 50px;
-  padding-right: -30px;
-  margin-top: 50px;
-  margin-left: 60px;
-  margin-right: -20px;
-  width: 450px;
+.mobile-3 {
+  margin-top: -30px;
+  margin-left: 120px;
+  padding-bottom: 80px;
 }
 
-.content-3-2 {
-  position: absolute;
-  margin-top: -150px;
-  margin-left: -110px;
-  width: 150px;
-  height: 150px;
-}
 
 @media only screen and (min-width: 992px) {
+  .content-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 600px;
+    padding-right: 50px;
+  }
   .content-3-1 {
     margin-top: 50px;
-    margin-left: 180px;
+    margin-left: 300px;
     width: 1200px;
   }
 
@@ -449,6 +445,10 @@ p span {
     margin-top: -300px;
     margin-left: -200px;
     width: 500px;
+  }
+
+  .mobile-3 {
+    display: none;
   }
 }
 
@@ -892,15 +892,6 @@ p span {
   margin-top: 50px;
   margin-left: 50px;
 }
-
-
-
-
-
-
-
-
-
 /***               ***/
 
 @media only screen and (min-width: 992px) {
