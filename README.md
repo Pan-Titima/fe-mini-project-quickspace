@@ -1,2 +1,2 @@
 # fe-mini-project-quickspace
-# Author : Titima Kasemsritanawat
+# Author : Titima Kasemsritanawat ^^
